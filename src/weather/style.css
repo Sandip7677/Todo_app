@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+
+
+*{margin:0;
+padding: 0;
+box-sizing: border-box;
+font-size:100%;}
+
+body{
+    background-color: indigo;
+}
+
+.container-main{
+    margin-top: 10%;
+}
+
+.search{
+    width: 20rem;
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+    height:2.5rem;
+    border: none;
+    outline: none;
+}
+
+.search:active,.search:hover{
+    /* box-shadow: inset 5px 5px magenta; */
+    border: none;
+    outline: none;
+}
+
+.button{
+    border: none;
+    outline: none;
+    width: 5rem;
+    height:2.5rem;
+    border-radius:0  10px 10px 0;
+    background-color: cadetblue;
+}
+.button:active,.button:hover{
+    /* box-shadow: inset -5px -5px magenta; */
+    border: none;
+    outline: none;
+}
+
+.card{
+    margin-top: 5%;
+    border-radius: 10px;
+    height:20rem;
+    width: 40rem;
+    box-shadow: 2px 2px 5px 10px rgb(109, 114, 182),-2px -2px 5px 10px rgb(109, 114, 182);
+    padding: 0;
+    background-color: white;
+}
+.container{
+    padding: 0;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.r1{
+    /* background-color: lightgoldenrodyellow; */
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    /* z-index: -1; */
+    text-align: center;
+}
+.r1 .wi{
+    font-size: 4rem;
+}
+.bg-dark{
+    padding: 10px 0 18px 0;
+}
+.temp{
+    padding: 0;
+}
+
+.temp span{
+    font-size: 4rem;
+    color: white;
+}
+.loc{
+    color: white;
+    padding: 14px 0 0 0;
+}
+.loc span{
+    
+    font-size: 2rem; 
+}
+.loc p{
+    font-size:.8rem;
+}
+.bg-cus{
+    background-color:rgb(36, 163, 163);
+    color:white;
+}
+.bg-cus span{
+    font-size: 1.5rem;
+    /* margin: 15px; */
+}
+.r3{
+    /* background-color:lightgoldenrodyellow ; */
+    /* z-index: -5; */
+    /* height: 95%; */
+    border-radius: 0 0 10px 10px;
+}
+
+.c1 .wi{
+    font-size: 2rem;
+    margin:1.8rem 0;
+}
+
+.r3 .col{
+    margin: 0;
+    padding: 0;
+}
+.c1{
+    text-align: center;
+    /* position: absolute; */
+}
+.c2 span{
+    text-align: center;
+    position: absolute;
+    top:20px;
+}
+.r4{
+    position: relative;
+}
+
